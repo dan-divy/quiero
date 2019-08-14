@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+const log = console.log;
+
+/**
+ *  Load dependencies
+ */
+var argv = require("yargs").argv;
+var parse = require('../dist/index');
+
+/** Get file names from CLI arguments. */
+var args = argv._;
+args.map((a, b) => {
+    parse(a);
+})

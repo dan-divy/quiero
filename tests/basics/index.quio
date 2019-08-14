@@ -1,0 +1,16 @@
+    x : 2
+    y : 1
+    {y}
+    {x}
+    "This is a {x} {y} string"
+    'Another string {y}'
+    @Who is the current Prime Minister of India?
+        #1 Narendra Modi
+        #2 Divy
+        #3 Dan
+        #4 Aadi
+    @What kind of question was that?
+        #1 Silly
+        #2 Stupid
+        #3 Cringy
+        #4 Funny
