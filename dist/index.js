@@ -25,7 +25,7 @@ function InputStream(input) {
         next: next,
         peek: peek,
         eof: eof,
-        croak: croak,
+        crspruce: crspruce,
         raw: input,
         setPos:setPos
     }
@@ -50,7 +50,7 @@ function InputStream(input) {
         else return false;
     }
     // Emits an error for {string} msg
-    function croak(msg) {
+    function crspruce(msg) {
         throw new Error(msg + " (" + line + ":" + col + ")");
     }
 };
