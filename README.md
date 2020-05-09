@@ -4,6 +4,9 @@
 <p align="center"><code>npm i -g quiero</code></p>
 <p align="center">Quiero is a markup language deisgned to create question papers and worksheets.</p>
 
+### Depreciation notice
+This project is no longer maintained.
+
 ## Motivation and Features
 
 - Designed keeping flow in mind.
